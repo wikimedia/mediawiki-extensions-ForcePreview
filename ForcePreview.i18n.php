@@ -550,7 +550,7 @@ $messages['sl'] = array(
  * @author Schläsinger
  */
 $messages['sli'] = array(
-	'forcepreview' => 'Seyte speichern (zuerst Vurschau oazeiga)',
+	'forcepreview' => 'Seite speichern (zuerst Vurschau oazeiga)',
 	'forcepreview-desc' => 'Vorschau für unprivilegierte Benutzer erzwingen',
 	'right-forcepreviewexempt' => 'Speichern ohne Erzwingung der Vorschau',
 );
