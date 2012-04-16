@@ -494,9 +494,10 @@ $messages['pt'] = array(
 
 /** Brazilian Portuguese (Português do Brasil)
  * @author Eduardo.mps
+ * @author 555
  */
 $messages['pt-br'] = array(
-	'forcepreview' => 'Gravar página (use a previsão primeiro)',
+	'forcepreview' => 'Salvar página (use antes a previsão)',
 	'forcepreview-desc' => 'Força previsão para utilizadores sem privilégios',
 	'right-forcepreviewexempt' => 'Pode salvar páginas sem mostrar a previsão antes',
 );
