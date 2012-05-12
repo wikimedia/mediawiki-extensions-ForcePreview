@@ -215,7 +215,7 @@ $messages['fr'] = array(
  */
 $messages['frp'] = array(
 	'forcepreview' => 'Sôvar la pâge (prèvisualisar d’abôrd)',
-	'forcepreview-desc' => 'Fôrce la prèvisualisacion por los utilisators pas privilègiyês.',
+	'forcepreview-desc' => 'Fôrce la prèvisualisacion por los usanciérs pas privilègiyês.',
 	'right-forcepreviewexempt' => 'Pôt sôvar sen utilisar la prèvisualisacion',
 );
 
@@ -331,11 +331,12 @@ $messages['it'] = array(
 
 /** Japanese (日本語)
  * @author Fryed-peach
+ * @author Shirayuki
  */
 $messages['ja'] = array(
 	'forcepreview' => 'ページを保存 (初めにプレビューを使用してください)',
-	'forcepreview-desc' => '権限をもたない利用者にプレビューを強制させる',
-	'right-forcepreviewexempt' => 'プレビューを行わずに保存できます',
+	'forcepreview-desc' => '権限を持たない利用者にプレビューを強制させる',
+	'right-forcepreviewexempt' => 'プレビューをせずに保存できる',
 );
 
 /** Javanese (Basa Jawa)
@@ -439,6 +440,7 @@ $messages['nl'] = array(
 
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
  * @author Harald Khan
+ * @author Njardarlogar
  */
 $messages['nn'] = array(
 	'forcepreview' => 'Lagra sida (førehandsvis først)',
@@ -580,7 +582,7 @@ $messages['tg-cyrl'] = array(
 	'forcepreview' => 'Захираи саҳифа (пешнамоишро аввал истифода баред)',
 );
 
-/** Tajik (Latin script) (tojikī)
+/** Tajik (Latin script) (Tojikī)
  * @author Liangent
  */
 $messages['tg-latn'] = array(
