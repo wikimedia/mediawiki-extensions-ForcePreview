@@ -56,7 +56,7 @@ $messages['arz'] = array(
 	'right-forcepreviewexempt' => 'يمكنه الحفظ بدون استخدام العرض المسبق',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Esbardu
  */
 $messages['ast'] = array(
@@ -91,7 +91,7 @@ $messages['bn'] = array(
 	'forcepreview-desc' => 'সুবিধাবঞ্চিত ব্যবহারকারীদের জন্য জোড়পূর্বক প্রাকদর্শন',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  */
 $messages['br'] = array(
@@ -100,7 +100,7 @@ $messages['br'] = array(
 	'right-forcepreviewexempt' => "A c'hall enrollañ hep ober gant ar rakweled",
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  */
 $messages['bs'] = array(
@@ -109,7 +109,7 @@ $messages['bs'] = array(
 	'right-forcepreviewexempt' => 'Može sačuvati izmjene bez obaveznog prikaza izgleda',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author Aleator
  * @author SMP
  */
@@ -119,7 +119,7 @@ $messages['ca'] = array(
 	'right-forcepreviewexempt' => 'Poder desar sense haver de previsualitzar',
 );
 
-/** Czech (Česky)
+/** Czech (česky)
  * @author Danny B.
  */
 $messages['cs'] = array(
@@ -128,7 +128,7 @@ $messages['cs'] = array(
 	'right-forcepreviewexempt' => 'Ukládání stránky bez používání náhledu',
 );
 
-/** Danish (Dansk)
+/** Danish (dansk)
  * @author Byrial
  */
 $messages['da'] = array(
@@ -173,7 +173,7 @@ $messages['eo'] = array(
 	'right-forcepreviewexempt' => 'Povas konservi neuzinte Antaŭvidon',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Crazymadlover
  */
 $messages['es'] = array(
@@ -182,14 +182,14 @@ $messages['es'] = array(
 	'right-forcepreviewexempt' => 'Puede grabar sin usar Mostrar prevista',
 );
 
-/** Basque (Euskara)
+/** Basque (euskara)
  * @author An13sa
  */
 $messages['eu'] = array(
 	'forcepreview' => 'Orrialdea gorde (aurretik aurreikuspena ikusiz)',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Crt
  * @author Nike
  */
@@ -199,7 +199,7 @@ $messages['fi'] = array(
 	'right-forcepreviewexempt' => 'Tallentaa ilman pakotettua esikatselua',
 );
 
-/** French (Français)
+/** French (français)
  * @author Grondin
  * @author PieRRoMaN
  * @author Verdy p
@@ -210,7 +210,7 @@ $messages['fr'] = array(
 	'right-forcepreviewexempt' => 'Peut publier sans utiliser la prévisualisation',
 );
 
-/** Franco-Provençal (Arpetan)
+/** Franco-Provençal (arpetan)
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
@@ -273,7 +273,7 @@ $messages['hi'] = array(
 	'forcepreview-desc' => 'कम अधिकार होने वाले सदस्योंको जानबूझकर झलक दिखायें',
 );
 
-/** Croatian (Hrvatski)
+/** Croatian (hrvatski)
  * @author Dalibor Bosits
  * @author Ex13
  */
@@ -292,7 +292,7 @@ $messages['hsb'] = array(
 	'right-forcepreviewexempt' => 'Bjez zwobraznjenja přehlada składować',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dani
  */
 $messages['hu'] = array(
@@ -301,7 +301,7 @@ $messages['hu'] = array(
 	'right-forcepreviewexempt' => 'lap mentése az előnézet megtekintése nélkül',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -320,7 +320,7 @@ $messages['id'] = array(
 	'right-forcepreviewexempt' => 'Dapat menyimpan tanpa menggunakan Lihat pratayang',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Darth Kule
  */
 $messages['it'] = array(
@@ -384,7 +384,7 @@ $messages['lb'] = array(
 	'right-forcepreviewexempt' => "Späicheren ouni ''Kucken oni ze späicheren'' ze weisen erlaben",
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Brest
  */
 $messages['mk'] = array(
@@ -438,7 +438,7 @@ $messages['nl'] = array(
 	'right-forcepreviewexempt' => 'Kan een pagina opslaan zonder bewerking ter controle te bekijken',
 );
 
-/** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
  * @author Harald Khan
  * @author Njardarlogar
  */
@@ -448,7 +448,7 @@ $messages['nn'] = array(
 	'right-forcepreviewexempt' => 'Kan lagra utan å måtta førehandsvisa',
 );
 
-/** Occitan (Occitan)
+/** Occitan (occitan)
  * @author Cedric31
  */
 $messages['oc'] = array(
@@ -464,7 +464,7 @@ $messages['os'] = array(
 	'forcepreview' => 'Фарс равæр (разæркасты фæстæ)',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Leinad
  * @author Sp5uhe
  */
@@ -483,7 +483,7 @@ $messages['pms'] = array(
 	'right-forcepreviewexempt' => 'A peul salvé sensa dovré Fa vëdde prima',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Hamilton Abreu
  * @author Malafaya
  * @author Waldir
@@ -494,7 +494,7 @@ $messages['pt'] = array(
 	'right-forcepreviewexempt' => 'Gravar páginas sem usar "Antever resultado"',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author 555
  * @author Eduardo.mps
  */
@@ -504,7 +504,7 @@ $messages['pt-br'] = array(
 	'right-forcepreviewexempt' => 'Pode salvar páginas sem mostrar a previsão antes',
 );
 
-/** Romanian (Română)
+/** Romanian (română)
  * @author KlaudiuMihaila
  */
 $messages['ro'] = array(
@@ -512,7 +512,7 @@ $messages['ro'] = array(
 	'forcepreview-desc' => 'Forțează previzualizare pentru utilizatori neprivilegiați',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
@@ -521,7 +521,7 @@ $messages['roa-tara'] = array(
 	'right-forcepreviewexempt' => "Puè reggistrà senze ca ause ''Vide l'andeprime''",
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
@@ -530,7 +530,7 @@ $messages['ru'] = array(
 	'right-forcepreviewexempt' => 'Возможность сохранять страницы без предварительного просмотра',
 );
 
-/** Slovak (Slovenčina)
+/** Slovak (slovenčina)
  * @author Helix84
  */
 $messages['sk'] = array(
@@ -539,7 +539,7 @@ $messages['sk'] = array(
 	'right-forcepreviewexempt' => 'Je možné uložiť bez použitia Zobraziť náhľad',
 );
 
-/** Slovenian (Slovenščina)
+/** Slovenian (slovenščina)
  * @author Dbc334
  */
 $messages['sl'] = array(
@@ -558,7 +558,7 @@ $messages['sli'] = array(
 	'right-forcepreviewexempt' => 'Speichern ohne Erzwingung der Vorschau',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author Jon Harald Søby
  * @author Lejonel
  */
@@ -575,14 +575,14 @@ $messages['te'] = array(
 	'forcepreview' => 'పేజీని భద్రపరచండి (ముందుగా సరిచూడండి)',
 );
 
-/** Tajik (Cyrillic script) (Тоҷикӣ)
+/** Tajik (Cyrillic script) (тоҷикӣ)
  * @author Ibrahim
  */
 $messages['tg-cyrl'] = array(
 	'forcepreview' => 'Захираи саҳифа (пешнамоишро аввал истифода баред)',
 );
 
-/** Tajik (Latin script) (Tojikī)
+/** Tajik (Latin script) (tojikī)
  * @author Liangent
  */
 $messages['tg-latn'] = array(
@@ -616,7 +616,7 @@ $messages['tr'] = array(
 	'right-forcepreviewexempt' => 'Ön izleme yapmadan sayfayı kaydedebilir',
 );
 
-/** Vèneto (Vèneto)
+/** vèneto (vèneto)
  * @author Candalua
  */
 $messages['vec'] = array(
@@ -645,7 +645,7 @@ $messages['vo'] = array(
 	'right-forcepreviewexempt' => 'Dalon dakipön nes gebon Büologedi',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Gzdavidwong
  * @author Hydra
  */
@@ -655,7 +655,7 @@ $messages['zh-hans'] = array(
 	'right-forcepreviewexempt' => '可保存而不使用显示预览',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (‪中文（繁體）‬)
  * @author Gzdavidwong
  * @author Mark85296341
  * @author Wrightbus
