@@ -74,7 +74,7 @@ $messages['bar'] = array(
 	'right-forcepreviewexempt' => 'Speichan ohne dass a Voaschau dazwunga wiad',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  */
 $messages['be-tarask'] = array(
@@ -147,7 +147,7 @@ $messages['de'] = array(
 	'right-forcepreviewexempt' => 'Speichern ohne Erzwingung der Vorschau',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -219,7 +219,7 @@ $messages['frp'] = array(
 	'right-forcepreviewexempt' => 'Pôt sôvar sen utilisar la prèvisualisacion',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Alma
  * @author Toliño
  */
@@ -283,7 +283,7 @@ $messages['hr'] = array(
 	'right-forcepreviewexempt' => "Moguće spremiti stranicu bez uporabe ''prikaži''",
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
