@@ -420,9 +420,7 @@ $messages['ms'] = array(
 	'right-forcepreviewexempt' => 'Boleh menyimpan tanpa menggunakan Pralihat',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Jon Harald Søby
- */
+/** Norwegian Bokmål (‪norsk (bokmål)‬) */
 $messages['nb'] = array(
 	'forcepreview' => 'Lagre side (forhåndsvis først)',
 	'forcepreview-desc' => 'Tvinger brukere til å forhåndsvise siden dersom de ikke har riktige rettigheter',
