@@ -566,6 +566,13 @@ $messages['sv'] = array(
 	'right-forcepreviewexempt' => 'Kan spara utan att visa förhandsgranskning',
 );
 
+/** Tamil (தமிழ்)
+ * @author Karthi.dr
+ */
+$messages['ta'] = array(
+	'forcepreview' => 'பக்கத்தைச் சேமி (முதலில் முன்தோற்றம் பார்க்கவும்)',
+);
+
 /** Telugu (తెలుగు)
  * @author Veeven
  */
