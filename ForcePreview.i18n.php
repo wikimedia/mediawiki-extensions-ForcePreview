@@ -74,7 +74,7 @@ $messages['bar'] = array(
 	'right-forcepreviewexempt' => 'Speichan ohne dass a Voaschau dazwunga wiad',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  */
 $messages['be-tarask'] = array(
@@ -420,7 +420,7 @@ $messages['ms'] = array(
 	'right-forcepreviewexempt' => 'Boleh menyimpan tanpa menggunakan Pralihat',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬) */
+/** Norwegian Bokmål (norsk (bokmål)‎) */
 $messages['nb'] = array(
 	'forcepreview' => 'Lagre side (forhåndsvis først)',
 	'forcepreview-desc' => 'Tvinger brukere til å forhåndsvise siden dersom de ikke har riktige rettigheter',
@@ -436,7 +436,7 @@ $messages['nl'] = array(
 	'right-forcepreviewexempt' => 'Kan een pagina opslaan zonder bewerking ter controle te bekijken',
 );
 
-/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
+/** Norwegian Nynorsk (norsk (nynorsk)‎)
  * @author Harald Khan
  * @author Njardarlogar
  */
@@ -650,7 +650,7 @@ $messages['vo'] = array(
 	'right-forcepreviewexempt' => 'Dalon dakipön nes gebon Büologedi',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Gzdavidwong
  * @author Hydra
  */
@@ -660,7 +660,7 @@ $messages['zh-hans'] = array(
 	'right-forcepreviewexempt' => '可保存而不使用显示预览',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Gzdavidwong
  * @author Mark85296341
  * @author Wrightbus
