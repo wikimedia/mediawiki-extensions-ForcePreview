@@ -420,7 +420,8 @@ $messages['ms'] = array(
 	'right-forcepreviewexempt' => 'Boleh menyimpan tanpa menggunakan Pralihat',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎) */
+/** Norwegian Bokmål (norsk (bokmål)‎)
+ */
 $messages['nb'] = array(
 	'forcepreview' => 'Lagre side (forhåndsvis først)',
 	'forcepreview-desc' => 'Tvinger brukere til å forhåndsvise siden dersom de ikke har riktige rettigheter',
@@ -493,8 +494,8 @@ $messages['pt'] = array(
 );
 
 /** Brazilian Portuguese (português do Brasil)
- * @author 555
  * @author Eduardo.mps
+ * @author 555
  */
 $messages['pt-br'] = array(
 	'forcepreview' => 'Salvar página (use antes a previsão)',
@@ -670,4 +671,3 @@ $messages['zh-hant'] = array(
 	'forcepreview-desc' => '非特權用戶力預覽',
 	'right-forcepreviewexempt' => '可保存而不使用顯示預覽',
 );
-
