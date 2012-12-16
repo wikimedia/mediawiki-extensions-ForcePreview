@@ -622,6 +622,15 @@ $messages['tr'] = array(
 	'right-forcepreviewexempt' => 'Ön izleme yapmadan sayfayı kaydedebilir',
 );
 
+/** Ukrainian (українська)
+ * @author Ата
+ */
+$messages['uk'] = array(
+	'forcepreview' => 'Зберегти сторінку (спершу використайте попередній перегляд)',
+	'forcepreview-desc' => "Обов'язкове використання попереднього перегляду для непривілейованих користувачів",
+	'right-forcepreviewexempt' => 'Можливість зберігати сторінки без попереднього перегляду',
+);
+
 /** vèneto (vèneto)
  * @author Candalua
  */
