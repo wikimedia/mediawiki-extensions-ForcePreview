@@ -189,6 +189,13 @@ $messages['eu'] = array(
 	'forcepreview' => 'Orrialdea gorde (aurretik aurreikuspena ikusiz)',
 );
 
+/** Persian (فارسی)
+ * @author Mjbmr
+ */
+$messages['fa'] = array(
+	'forcepreview' => 'ذخیرهٔ صفحه (ابتدا از پیش‌نمایش استفاده کنید)',
+);
+
 /** Finnish (suomi)
  * @author Crt
  * @author Nike
@@ -344,6 +351,13 @@ $messages['ja'] = array(
  */
 $messages['jv'] = array(
 	'forcepreview' => 'Simpen kaca (enggonen pratayang dhisik)',
+);
+
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'forcepreview' => 'გვერდის შენახვა (მანამდე გამოიყენეთ წინასწარი გადახედვა)',
 );
 
 /** Khmer (ភាសាខ្មែរ)
