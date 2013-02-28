@@ -20,11 +20,12 @@ $messages['en'] = array(
 /** Message documentation (Message documentation)
  * @author Meno25
  * @author Purodha
+ * @author Shirayuki
  * @author The Evil IP address
  * @author Umherirrender
  */
 $messages['qqq'] = array(
-	'forcepreview-desc' => '{{desc}}',
+	'forcepreview-desc' => '{{desc|name=Force Preview|url=http://www.mediawiki.org/wiki/Extension:ForcePreview}}',
 	'right-forcepreviewexempt' => '{{doc-right|forcepreviewexempt}}',
 );
 
