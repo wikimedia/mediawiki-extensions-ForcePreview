@@ -25,6 +25,10 @@ $messages['en'] = array(
  * @author Umherirrender
  */
 $messages['qqq'] = array(
+	'forcepreview' => 'Used as Save Page button text.
+The button is disabled by default.
+
+"Use preview first" is an imperative sentence.',
 	'forcepreview-desc' => '{{desc|name=Force Preview|url=http://www.mediawiki.org/wiki/Extension:ForcePreview}}',
 	'right-forcepreviewexempt' => '{{doc-right|forcepreviewexempt}}',
 );
