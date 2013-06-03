@@ -439,7 +439,7 @@ $messages['ms'] = array(
 	'right-forcepreviewexempt' => 'Boleh menyimpan tanpa menggunakan Pralihat',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  */
 $messages['nb'] = array(
 	'forcepreview' => 'Lagre side (forhåndsvis først)',
@@ -456,7 +456,7 @@ $messages['nl'] = array(
 	'right-forcepreviewexempt' => 'Kan een pagina opslaan zonder bewerking ter controle te bekijken',
 );
 
-/** Norwegian Nynorsk (norsk (nynorsk)‎)
+/** Norwegian Nynorsk (norsk nynorsk)
  * @author Harald Khan
  * @author Njardarlogar
  */
