@@ -660,13 +660,14 @@ $messages['vec'] = array(
 );
 
 /** Vietnamese (Tiếng Việt)
+ * @author Minh Nguyen
  * @author Vinhtantran
  */
 $messages['vi'] = array(
 	'forcepreview' => '
 
-Lưu trang (sau khi xem thử)',
-	'forcepreview-desc' => 'Bắt buộc xem thử đối với thành viên không đủ quyền',
+Lưu trang (sau khi xem trước)',
+	'forcepreview-desc' => 'Bắt buộc xem trước đối với thành viên không đủ quyền',
 	'right-forcepreviewexempt' => 'Có thể lưu mà không sử dụng Xem trước',
 );
 
