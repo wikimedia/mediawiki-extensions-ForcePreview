@@ -423,11 +423,12 @@ $messages['ml'] = array(
 
 /** Marathi (मराठी)
  * @author Kaustubh
+ * @author V.narsikar
  */
 $messages['mr'] = array(
 	'forcepreview' => 'पान जतन करा (आधी झलक पहा)',
 	'forcepreview-desc' => 'कमी अधिकार असणार्‍या सदस्यांसाठी जाणूनबुजून झलक दाखवा',
-	'right-forcepreviewexempt' => 'झलक पहा चा वापर न करता पाठविता येईल',
+	'right-forcepreviewexempt' => 'झलक पहा चा वापर न करता जतन करता येईल',
 );
 
 /** Malay (Bahasa Melayu)
