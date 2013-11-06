@@ -189,9 +189,10 @@ $messages['es'] = array(
 
 /** Basque (euskara)
  * @author An13sa
+ * @author Xabier Armendaritz
  */
 $messages['eu'] = array(
-	'forcepreview' => 'Orrialdea gorde (aurretik aurreikuspena ikusiz)',
+	'forcepreview' => 'Gorde orria (lehenago aurreikuspena ikusita)',
 );
 
 /** Persian (فارسی)
