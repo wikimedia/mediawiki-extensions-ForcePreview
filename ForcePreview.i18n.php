@@ -124,7 +124,7 @@ $messages['ca'] = array(
 	'right-forcepreviewexempt' => 'Poder desar sense haver de previsualitzar',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Danny B.
  */
 $messages['cs'] = array(
