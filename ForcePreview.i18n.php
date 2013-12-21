@@ -232,6 +232,13 @@ $messages['frp'] = array(
 	'right-forcepreviewexempt' => 'Pôt sôvar sen utilisar la prèvisualisacion',
 );
 
+/** Western Frisian (Frysk)
+ * @author Kening Aldgilles
+ */
+$messages['fy'] = array(
+	'forcepreview' => 'Fêstlizze (earst yn lêsskerm sjen litte)',
+);
+
 /** Galician (galego)
  * @author Alma
  * @author Toliño
