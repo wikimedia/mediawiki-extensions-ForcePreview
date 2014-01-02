@@ -196,10 +196,13 @@ $messages['eu'] = array(
 );
 
 /** Persian (فارسی)
+ * @author Armin1392
  * @author Mjbmr
  */
 $messages['fa'] = array(
 	'forcepreview' => 'ذخیرهٔ صفحه (ابتدا از پیش‌نمایش استفاده کنید)',
+	'forcepreview-desc' => 'اجبار پیش‌نمایش برای کاربران بدون امتیاز',
+	'right-forcepreviewexempt' => 'ممکن است بدون استفاده از نمایش پیش‌نمایش، ذخیره شود',
 );
 
 /** Finnish (suomi)
