@@ -271,12 +271,13 @@ $messages['gsw'] = array(
 );
 
 /** Hawaiian (Hawai`i)
+ * @author Kolonahe
  * @author Singularity
  */
 $messages['haw'] = array(
 	'forcepreview' => 'Mālama i ka ‘ao‘ao (mamua, nānā i ka nāmua)',
 	'forcepreview-desc' => 'No nā inoa mea ho‘ohana i ‘a‘ole kuleana ‘ia, ha‘akoi i ka nāmua',
-	'right-forcepreviewexempt' => 'Mālama paha me ka nānā ‘ana ‘ole o "Nānā i ka nāmua"',
+	'right-forcepreviewexempt' => 'Hiki ke mālama me ʻole ka hana ʻana o "Nānā i ka nāmua"',
 );
 
 /** Hebrew (עברית)
