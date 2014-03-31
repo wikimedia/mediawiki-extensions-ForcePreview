@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "Rotemliss"
+        ]
+    },
+    "forcepreview": "שמירה (השתמשו קודם בתצוגה מקדימה)",
+    "forcepreview-desc": "הכרחת משתמשים לא מורשים להשתמש בתצוגה מקדימה",
+    "right-forcepreviewexempt": "שמירה מבלי להשתמש בתצוגה מקדימה"
+}

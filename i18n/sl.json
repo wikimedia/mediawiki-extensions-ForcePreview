@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "Dbc334"
+        ]
+    },
+    "forcepreview": "Shrani stran (najprej uporabi predogled)",
+    "forcepreview-desc": "Vsili predogled za neprivilegirane uporabnike",
+    "right-forcepreviewexempt": "Lahko shranjuje brez uporabe Prikaži predogled"
+}

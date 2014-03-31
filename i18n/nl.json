@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "Siebrand"
+        ]
+    },
+    "forcepreview": "Pagina opslaan (de bewerking eerst ter controle weergeven)",
+    "forcepreview-desc": "Bewerkingen voor gebruikers zonder rechten eerst ter controle weergeven",
+    "right-forcepreviewexempt": "Kan een pagina opslaan zonder bewerking ter controle te bekijken"
+}

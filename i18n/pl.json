@@ -1,0 +1,11 @@
+{
+    "@metadata": {
+        "authors": [
+            "Leinad",
+            "Sp5uhe"
+        ]
+    },
+    "forcepreview": "Zapisz (najpierw sprawdź Podgląd)",
+    "forcepreview-desc": "Wymusza na nieuprawnionych użytkownikach użycie podglądu przed zapisaniem strony",
+    "right-forcepreviewexempt": "Możliwość zapisywania bez użycia „Pokaż podgląd”"
+}

@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "Danny B."
+        ]
+    },
+    "forcepreview": "Uložit stránku (nejprve použijte náhled)",
+    "forcepreview-desc": "Vynucování náhledu u neprivilegovaných uživatelů",
+    "right-forcepreviewexempt": "Ukládání stránky bez používání náhledu"
+}

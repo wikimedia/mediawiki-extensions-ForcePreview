@@ -1,0 +1,14 @@
+{
+    "@metadata": {
+        "authors": [
+            "Meno25",
+            "Purodha",
+            "Shirayuki",
+            "The Evil IP address",
+            "Umherirrender"
+        ]
+    },
+    "forcepreview": "Used as Save Page button text.\nThe button is disabled by default.\n\n\"Use preview first\" is an imperative sentence.",
+    "forcepreview-desc": "{{desc|name=Force Preview|url=http://www.mediawiki.org/wiki/Extension:ForcePreview}}",
+    "right-forcepreviewexempt": "{{doc-right|forcepreviewexempt}}"
+}

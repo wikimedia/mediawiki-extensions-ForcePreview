@@ -1,0 +1,11 @@
+{
+    "@metadata": {
+        "authors": [
+            "Jon Harald Søby",
+            "Lejonel"
+        ]
+    },
+    "forcepreview": "Spara (förhandsgranska först)",
+    "forcepreview-desc": "Tvingar användare att förhandsgranska om de saknar rätt behörighet",
+    "right-forcepreviewexempt": "Kan spara utan att visa förhandsgranskning"
+}

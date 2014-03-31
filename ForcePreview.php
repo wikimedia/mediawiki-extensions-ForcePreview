@@ -5,7 +5,6 @@
  * @file
  * @ingroup Extensions
  * @author Ryan Schmidt
- * @version 1.2
  * @license http://en.wikipedia.org/wiki/Public_domain Public domain
  * @link http://www.mediawiki.org/wiki/Extension:ForcePreview Documentation
  */
@@ -19,7 +18,7 @@ if( !defined( 'MEDIAWIKI' ) ) {
 $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'Force Preview',
-	'version' => '1.2',
+	'version' => '1.3.0',
 	'author' => 'Ryan Schmidt',
 	'descriptionmsg' => 'forcepreview-desc',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:ForcePreview',
@@ -27,6 +26,7 @@ $wgExtensionCredits['other'][] = array(
 
 // i18n file
 $dir = dirname( __FILE__ ) . '/';
+$wgMessagesDirs['ForcePreview'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['ForcePreview'] = $dir . 'ForcePreview.i18n.php';
 
 // New user right, allows users to bypass the requirement of previewing before

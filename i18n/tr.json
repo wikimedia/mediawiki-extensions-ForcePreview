@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "Vito Genovese"
+        ]
+    },
+    "forcepreview": "Sayfayı kaydet (ilk önce ön izlemeyi kullan)",
+    "forcepreview-desc": "Yetkisiz kullanıcılar için ön izlemeyi zorunlu kılar",
+    "right-forcepreviewexempt": "Ön izleme yapmadan sayfayı kaydedebilir"
+}

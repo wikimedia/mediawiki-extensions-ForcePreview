@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "Brest"
+        ]
+    },
+    "forcepreview": "Зачувај страница (прво прегледај)",
+    "forcepreview-desc": "Форсирај преглед за непривилегирани корисници",
+    "right-forcepreviewexempt": "Може да зачува измени без прегледување"
+}
