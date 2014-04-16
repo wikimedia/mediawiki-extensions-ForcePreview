@@ -1,8 +1,6 @@
 {
-    "@metadata": {
-        "authors": []
-    },
-    "forcepreview": "Lagre side (forhåndsvis først)",
-    "forcepreview-desc": "Tvinger brukere til å forhåndsvise siden dersom de ikke har riktige rettigheter",
-    "right-forcepreviewexempt": "Kan lagre uten å måtte se forhåndsvisning først"
+	"@metadata": [],
+	"forcepreview": "Lagre side (forhåndsvis først)",
+	"forcepreview-desc": "Tvinger brukere til å forhåndsvise siden dersom de ikke har riktige rettigheter",
+	"right-forcepreviewexempt": "Kan lagre uten å måtte se forhåndsvisning først"
 }

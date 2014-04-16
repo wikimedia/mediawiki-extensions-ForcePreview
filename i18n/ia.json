@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "McDutchie"
-        ]
-    },
-    "forcepreview": "Publicar pagina (face primo un previsualisation)",
-    "forcepreview-desc": "Fortia le uso del previsualisation pro usatores non privilegiate",
-    "right-forcepreviewexempt": "Pote publicar sin uso de \"Monstrar previsualisation\""
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"forcepreview": "Publicar pagina (face primo un previsualisation)",
+	"forcepreview-desc": "Fortia le uso del previsualisation pro usatores non privilegiate",
+	"right-forcepreviewexempt": "Pote publicar sin uso de \"Monstrar previsualisation\""
 }

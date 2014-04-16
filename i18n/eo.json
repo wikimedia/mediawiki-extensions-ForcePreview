@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Smeira",
-            "Yekrats"
-        ]
-    },
-    "forcepreview": "Konservu paĝon (post rigardanta ĝin)",
-    "forcepreview-desc": "Devigi antaŭrigardon por senrajtajn uzantojn",
-    "right-forcepreviewexempt": "Povas konservi neuzinte Antaŭvidon"
+	"@metadata": {
+		"authors": [
+			"Smeira",
+			"Yekrats"
+		]
+	},
+	"forcepreview": "Konservu paĝon (post rigardanta ĝin)",
+	"forcepreview-desc": "Devigi antaŭrigardon por senrajtajn uzantojn",
+	"right-forcepreviewexempt": "Povas konservi neuzinte Antaŭvidon"
 }

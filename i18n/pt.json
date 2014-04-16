@@ -1,12 +1,12 @@
 {
-    "@metadata": {
-        "authors": [
-            "Hamilton Abreu",
-            "Malafaya",
-            "Waldir"
-        ]
-    },
-    "forcepreview": "Gravar página (use a antevisão primeiro)",
-    "forcepreview-desc": "Força antevisão para utilizadores sem privilégios",
-    "right-forcepreviewexempt": "Gravar páginas sem usar \"Antever resultado\""
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu",
+			"Malafaya",
+			"Waldir"
+		]
+	},
+	"forcepreview": "Gravar página (use a antevisão primeiro)",
+	"forcepreview-desc": "Força antevisão para utilizadores sem privilégios",
+	"right-forcepreviewexempt": "Gravar páginas sem usar \"Antever resultado\""
 }

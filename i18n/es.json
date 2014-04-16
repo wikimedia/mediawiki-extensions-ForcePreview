@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Crazymadlover"
-        ]
-    },
-    "forcepreview": "Grabar página (use prevista primero)",
-    "forcepreview-desc": "Forzar prevista para usuarios no privilegiados",
-    "right-forcepreviewexempt": "Puede grabar sin usar Mostrar prevista"
+	"@metadata": {
+		"authors": [
+			"Crazymadlover"
+		]
+	},
+	"forcepreview": "Grabar página (use prevista primero)",
+	"forcepreview-desc": "Forzar prevista para usuarios no privilegiados",
+	"right-forcepreviewexempt": "Puede grabar sin usar Mostrar prevista"
 }

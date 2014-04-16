@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Joetaras"
-        ]
-    },
-    "forcepreview": "Reggistre 'a vosce (ause l'andeprime apprime)",
-    "forcepreview-desc": "Sfuèrze l'andeprime pe l'utinde senza privilegge",
-    "right-forcepreviewexempt": "Puè reggistrà senze ca ause ''Vide l'andeprime''"
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"forcepreview": "Reggistre 'a vosce (ause l'andeprime apprime)",
+	"forcepreview-desc": "Sfuèrze l'andeprime pe l'utinde senza privilegge",
+	"right-forcepreviewexempt": "Puè reggistrà senze ca ause ''Vide l'andeprime''"
 }

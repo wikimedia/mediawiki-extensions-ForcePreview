@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Alma",
-            "Toliño"
-        ]
-    },
-    "forcepreview": "Gardar páxina (usar vista previa)",
-    "forcepreview-desc": "Forzar a vista previa aos usuarios sen privilexios",
-    "right-forcepreviewexempt": "Poder gardar sen usar a vista previa"
+	"@metadata": {
+		"authors": [
+			"Alma",
+			"Toliño"
+		]
+	},
+	"forcepreview": "Gardar páxina (usar vista previa)",
+	"forcepreview-desc": "Forzar a vista previa aos usuarios sen privilexios",
+	"right-forcepreviewexempt": "Poder gardar sen usar a vista previa"
 }

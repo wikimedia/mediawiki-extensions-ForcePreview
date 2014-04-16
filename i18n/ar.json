@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Meno25",
-            "OsamaK"
-        ]
-    },
-    "forcepreview": "احفظ الصفحة (عاين أولا)",
-    "forcepreview-desc": "إجبار المستخدمين غير الموثوقين على العرض المسبق",
-    "right-forcepreviewexempt": "يمكنه الحفظ بدون استخدام العرض المسبق"
+	"@metadata": {
+		"authors": [
+			"Meno25",
+			"OsamaK"
+		]
+	},
+	"forcepreview": "احفظ الصفحة (عاين أولا)",
+	"forcepreview-desc": "إجبار المستخدمين غير الموثوقين على العرض المسبق",
+	"right-forcepreviewexempt": "يمكنه الحفظ بدون استخدام العرض المسبق"
 }

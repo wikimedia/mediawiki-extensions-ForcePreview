@@ -1,12 +1,12 @@
 {
-    "@metadata": {
-        "authors": [
-            "Gzdavidwong",
-            "Mark85296341",
-            "Wrightbus"
-        ]
-    },
-    "forcepreview": "儲存頁面（需先預覽）",
-    "forcepreview-desc": "非特權用戶力預覽",
-    "right-forcepreviewexempt": "可保存而不使用顯示預覽"
+	"@metadata": {
+		"authors": [
+			"Gzdavidwong",
+			"Mark85296341",
+			"Wrightbus"
+		]
+	},
+	"forcepreview": "儲存頁面（需先預覽）",
+	"forcepreview-desc": "非特權用戶力預覽",
+	"right-forcepreviewexempt": "可保存而不使用顯示預覽"
 }

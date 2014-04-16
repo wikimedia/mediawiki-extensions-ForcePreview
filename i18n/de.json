@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "ChrisiPK",
-            "sokai"
-        ]
-    },
-    "forcepreview": "Seite speichern (zuerst Vorschau anzeigen)",
-    "forcepreview-desc": "Vorschau für unprivilegierte Benutzer erzwingen",
-    "right-forcepreviewexempt": "Speichern ohne Erzwingung der Vorschau"
+	"@metadata": {
+		"authors": [
+			"ChrisiPK",
+			"sokai"
+		]
+	},
+	"forcepreview": "Seite speichern (zuerst Vorschau anzeigen)",
+	"forcepreview-desc": "Vorschau für unprivilegierte Benutzer erzwingen",
+	"right-forcepreviewexempt": "Speichern ohne Erzwingung der Vorschau"
 }
