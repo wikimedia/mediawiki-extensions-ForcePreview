@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Man77"
+			"Man77",
+			"Matthias Klostermayr"
 		]
 	},
-	"forcepreview": "Seitn speichan (zeast Voaschau ãnzoang)",
+	"forcepreview": "Seitn speichan (zeascht Voaschau zoang)",
 	"forcepreview-desc": "Voaschau fia ned privilegiade Benutza dazwinga",
-	"right-forcepreviewexempt": "Speichan ohne dass a Voaschau dazwunga wiad"
+	"right-forcepreviewexempt": "Speichan ohne dass a Voaschau dazwunga wead"
 }
