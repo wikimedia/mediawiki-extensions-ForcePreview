@@ -50,8 +50,8 @@ function efForcePreview( &$editpage, &$buttons ) {
 			'/>', 'disabled="disabled" />', $buttons['save']
 		);
 		$buttons['save'] = preg_replace(
-			'/value="' . wfMsg( 'savearticle' ) . '"/i',
-			'value="' . wfMsg( 'forcepreview' ) . '"',
+			'/value="' . wfMessage( 'savearticle' )->text() . '"/i',
+			'value="' . wfMessage( 'forcepreview' )->text() . '"',
 			$buttons['save']
 		);
 		if( $buttons['live'] !== '' ) {
@@ -98,7 +98,7 @@ function efForcePreviewLivePreview( &$out, $sk = null ) {
 	$out->addHTML(
 		"<script type=\"text/javascript\">
 		var liveButton = document.getElementById( 'wpLivePreview' );
-		var msg = \"" . wfMsg( 'savearticle' ) . "\";
+		var msg = \"" . wfMessage( 'savearticle' )->escaped() . "\";
 		function enableSave() {
 			if( !liveButton ) {
 				return;
