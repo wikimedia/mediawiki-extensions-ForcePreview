@@ -4,7 +4,7 @@
 			"Ryan Schmidt"
 		]
 	},
-	"forcepreview": "Save page (use preview first)",
+	"forcepreview": "$1 (use preview first)",
 	"forcepreview-desc": "Force preview for unprivileged users",
 	"right-forcepreviewexempt": "May save without using Show preview"
 }

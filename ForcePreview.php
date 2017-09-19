@@ -5,122 +5,46 @@
  * @file
  * @ingroup Extensions
  * @author Ryan Schmidt
- * @license http://en.wikipedia.org/wiki/Public_domain Public domain
+ * @license MIT
  * @link http://www.mediawiki.org/wiki/Extension:ForcePreview Documentation
  */
 
-if( !defined( 'MEDIAWIKI' ) ) {
-	echo( "This file is an extension to the MediaWiki software and is not a valid access point" );
-	die( 1 );
-}
+class ForcePreview {
+	public static function onEditPageBeforeEditButtons( &$editpage, &$buttons, &$tabindex ) {
+		$user = $editpage->getContext()->getUser();
+		$isInitialLoad = !$editpage->preview && empty( $editpage->save );
 
-// Extension credits that will show up on Special:Version
-$wgExtensionCredits['other'][] = array(
-	'path' => __FILE__,
-	'name' => 'Force Preview',
-	'version' => '1.3.0',
-	'author' => 'Ryan Schmidt',
-	'descriptionmsg' => 'forcepreview-desc',
-	'url' => 'https://www.mediawiki.org/wiki/Extension:ForcePreview',
-);
-
-// i18n file
-$dir = dirname( __FILE__ ) . '/';
-$wgMessagesDirs['ForcePreview'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['ForcePreview'] = $dir . 'ForcePreview.i18n.php';
-
-// New user right, allows users to bypass the requirement of previewing before
-// saving the page
-$wgAvailableRights[] = 'forcepreviewexempt';
-
-$wgHooks['EditPageBeforeEditButtons'][] = 'efForcePreview';
-$wgHooks['BeforePageDisplay'][] = 'efForcePreviewLivePreview';
-
-//for GroupPermissions manager extension sorting
-$wgGPManagerSort['edit'][] = 'forcepreviewexempt';
-
-function efForcePreview( &$editpage, &$buttons ) {
-	global $wgUser;
-	if(
-		!$wgUser->isAllowed( 'forcepreviewexempt' ) &&
-		!$editpage->preview && empty( $editpage->save )
-	)
-	{
-		$buttons['save'] = str_replace(
-			'/>', 'disabled="disabled" />', $buttons['save']
-		);
-		$buttons['save'] = preg_replace(
-			'/value="' . wfMessage( 'savearticle' )->text() . '"/i',
-			'value="' . wfMessage( 'forcepreview' )->text() . '"',
-			$buttons['save']
-		);
-		if( $buttons['live'] !== '' ) {
-			$buttons['preview'] = preg_replace(
-				'/style="(.*?);?"/',
-				'style="$1; font-weight: bold;"',
-				$buttons['preview']
-			); # in case something else made it visible
-			$buttons['live']  = str_replace(
-				'/>',
-				'style="font-weight: bold" />',
-				$buttons['live']
-			);
-		} else {
-			$buttons['preview'] = str_replace(
-				'/>',
-				'style="font-weight: bold" />',
-				$buttons['preview']
-			);
+		if ( !$user->isAllowed( 'forcepreviewexempt' ) && $isInitialLoad ) {
+			$buttons['save']->setDisabled( true );
+			$buttons['save']->setLabel( wfMessage( 'forcepreview', $buttons['save']->getLabel() )->text() );
+			$buttons['save']->setFlags( [ 'primary' => false ] );
+			$buttons['preview']->setFlags( [ 'primary' => true, 'constructive' => true ] );
 		}
-	}
-	return true;
-}
 
-function efForcePreviewLivePreview( &$out, $sk = null ) {
-	global $wgUser, $wgRequest, $wgLivePreview;
-	if( !$wgLivePreview || !$out->getTitle()->userCan( 'edit' ) ) {
 		return true;
 	}
-	if(
-		$wgUser->isAllowed( 'forcepreviewexempt' ) ||
-		!$wgUser->getBoolOption( 'uselivepreview' )
-	)
-	{
+
+	public static function onBeforePageDisplay( &$out, &$skin ) {
+		$user = $out->getUser();
+		$request = $out->getRequest();
+		$title = $out->getTitle();
+		
+		if (
+			!$title->userCan( 'edit' )
+			|| $user->isAllowed( 'forcepreviewexempt' )
+			|| !$user->getBoolOption( 'uselivepreview' )
+			|| !in_array( $request->getVal( 'action' ), [ 'edit', 'submit' ] )
+		) {
+			return true;
+		}
+
+		$out->addModules( 'ext.ForcePreview.livePreview' );
 		return true;
 	}
-	if(
-		!$wgRequest->getVal( 'action' ) == 'edit' ||
-		!$wgRequest->getVal( 'action' ) == 'submit'
-	)
-	{
+
+	public static function onResourceLoaderGetConfigVars( &$vars ) {
+		$config = MediaWiki\MediaWikiServices::getInstance()->getMainConfig();
+		$vars['wgEditSubmitButtonLabelPublish'] = $config->get( 'EditSubmitButtonLabelPublish' );
 		return true;
 	}
-	$out->addHTML(
-		"<script type=\"text/javascript\">
-		var liveButton = document.getElementById( 'wpLivePreview' );
-		var msg = \"" . wfMessage( 'savearticle' )->escaped() . "\";
-		function enableSave() {
-			if( !liveButton ) {
-				return;
-			}
-			liveButton.style.fontWeight = 'normal';
-			var previewButton = document.getElementById( 'wpPreview' );
-			if( previewButton ) {
-				previewButton.style.fontWeight = 'normal';
-			}
-			var saveButton = document.getElementById( 'wpSave' );
-			if( !saveButton ) {
-				return;
-			}
-			saveButton.disabled = false;
-			saveButton.value = msg;
-		}
-		if( window.addEventListener ) {
-			liveButton.addEventListener( 'click', enableSave, false );
-		} elseif( window.attachEvent ) {
-			liveButton.attachEvent( 'onclick', enableSave );
-		}
-		</script>"
-	);
-	return true;
 }
