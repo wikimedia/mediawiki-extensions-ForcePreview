@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Darth Kule"
+			"Darth Kule",
+			"Beta16"
 		]
 	},
-	"forcepreview": "Salva la pagina (usa prima l'anteprima)",
+	"forcepreview": "$1 (usa prima l'anteprima)",
 	"forcepreview-desc": "Forza l'uso dell'anteprima per gli utenti che non hanno privilegi sufficienti",
 	"right-forcepreviewexempt": "Può salvare senza usare Visualizza anteprima"
 }

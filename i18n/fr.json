@@ -3,10 +3,11 @@
 		"authors": [
 			"Grondin",
 			"PieRRoMaN",
-			"Verdy p"
+			"Verdy p",
+			"Gomoko"
 		]
 	},
-	"forcepreview": "Sauvegarder la page (prévisualiser au préalable)",
+	"forcepreview": "$1 (prévisualiser au préalable)",
 	"forcepreview-desc": "Force la prévisualisation pour les utilisateurs ne disposant d'aucun privilège",
 	"right-forcepreviewexempt": "Peut publier sans utiliser la prévisualisation"
 }

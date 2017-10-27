@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"ChrisiPK",
-			"sokai"
+			"sokai",
+			"Metalhead64"
 		]
 	},
-	"forcepreview": "Seite speichern (zuerst Vorschau anzeigen)",
+	"forcepreview": "$1 (zuerst Vorschau anzeigen)",
 	"forcepreview-desc": "Vorschau für unprivilegierte Benutzer erzwingen",
 	"right-forcepreviewexempt": "Speichern ohne Erzwingung der Vorschau"
 }

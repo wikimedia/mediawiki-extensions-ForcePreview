@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kaustubh"
+			"Kaustubh",
+			"Rishi.Singh"
 		]
 	},
-	"forcepreview": "लेख संजोयें (पहलें झलक देखें)",
+	"forcepreview": "$1(पहलें झलक देखें)",
 	"forcepreview-desc": "कम अधिकार होने वाले सदस्योंको जानबूझकर झलक दिखायें"
 }
