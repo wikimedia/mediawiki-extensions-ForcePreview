@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Bennylin",
-			"IvanLanin"
+			"IvanLanin",
+			"Gombang"
 		]
 	},
-	"forcepreview": "Simpan halaman (gunakan pratayang dulu)",
+	"forcepreview": "$1 (gunakan pratayang dulu)",
 	"forcepreview-desc": "Paksa pratayang untuk pengguna tanpa konfirmasi otomatis",
 	"right-forcepreviewexempt": "Dapat menyimpan tanpa menggunakan Lihat pratayang"
 }
