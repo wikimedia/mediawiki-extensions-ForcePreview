@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Jon Harald Søby",
-			"Lejonel"
+			"Lejonel",
+			"WikiPhoenix"
 		]
 	},
-	"forcepreview": "Spara (förhandsgranska först)",
+	"forcepreview": "$1 (förhandsgranska först)",
 	"forcepreview-desc": "Tvingar användare att förhandsgranska om de saknar rätt behörighet",
 	"right-forcepreviewexempt": "Kan spara utan att visa förhandsgranskning"
 }

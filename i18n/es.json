@@ -5,7 +5,7 @@
 			"Fitoschido"
 		]
 	},
-	"forcepreview": "Grabar página (use prevista primero)",
+	"forcepreview": "$1 (previsualiza primero)",
 	"forcepreview-desc": "Forzar prevista para usuarios no privilegiados",
 	"right-forcepreviewexempt": "Puede guardar sin utilizar «Mostrar previsualización»"
 }
