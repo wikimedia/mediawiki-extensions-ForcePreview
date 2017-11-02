@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Dbc334"
+			"Dbc334",
+			"HairyFotr"
 		]
 	},
-	"forcepreview": "Shrani stran (najprej uporabi predogled)",
+	"forcepreview": "$1 (najprej uporabi predogled)",
 	"forcepreview-desc": "Vsili predogled za neprivilegirane uporabnike",
 	"right-forcepreviewexempt": "Lahko shranjuje brez uporabe Prikaži predogled"
 }
