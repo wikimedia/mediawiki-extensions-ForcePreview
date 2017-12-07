@@ -4,7 +4,7 @@
 			"Jon Harald Søby"
 		]
 	},
-	"forcepreview": "Lagre side (forhåndsvis først)",
+	"forcepreview": "$1 (bruk forhåndsvisning først)",
 	"forcepreview-desc": "Tvinger brukere til å forhåndsvise siden dersom de ikke har riktige rettigheter",
 	"right-forcepreviewexempt": "Kan lagre uten å måtte se forhåndsvisning først"
 }
