@@ -3,10 +3,11 @@
 		"authors": [
 			"Hamilton Abreu",
 			"Malafaya",
-			"Waldir"
+			"Waldir",
+			"Athena in Wonderland"
 		]
 	},
-	"forcepreview": "Gravar página (use a antevisão primeiro)",
+	"forcepreview": "$1 (use a antevisão primeiro)",
 	"forcepreview-desc": "Força antevisão para utilizadores sem privilégios",
 	"right-forcepreviewexempt": "Gravar páginas sem usar \"Antever resultado\""
 }
