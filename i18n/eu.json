@@ -2,8 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"An13sa",
-			"Xabier Armendaritz"
+			"Xabier Armendaritz",
+			"Mikel Ibaiba"
 		]
 	},
-	"forcepreview": "Gorde orria (lehenago aurreikuspena ikusita)"
+	"forcepreview": "$1 (lehenago aurreikuspena erabili)"
 }
