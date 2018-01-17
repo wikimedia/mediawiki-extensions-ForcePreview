@@ -18,7 +18,7 @@ class ForcePreview {
 			$buttons['save']->setDisabled( true );
 			$buttons['save']->setLabel( wfMessage( 'forcepreview', $buttons['save']->getLabel() )->text() );
 			$buttons['save']->setFlags( [ 'primary' => false ] );
-			$buttons['preview']->setFlags( [ 'primary' => true, 'constructive' => true ] );
+			$buttons['preview']->setFlags( [ 'primary' => true, 'progressive' => true ] );
 		}
 
 		return true;

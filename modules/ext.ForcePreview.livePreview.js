@@ -15,11 +15,11 @@ $( function () {
 	}
 
 	preview.on( "click", function enableSave() {
-		save.setFlags( { primary: true, constructive: true } )
+		save.setFlags( { primary: true, progressive: true } )
 			.setDisabled( false )
 			.setLabel( OO.ui.msg( message ) );
 
-		preview.setFlags( { primary: false, constructive: false } )
+		preview.setFlags( { primary: false, progressive: false } )
 			.off( "click", enableSave );
 	} );
 } );
