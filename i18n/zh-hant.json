@@ -4,10 +4,11 @@
 			"Gzdavidwong",
 			"Mark85296341",
 			"Wrightbus",
-			"LNDDYL"
+			"LNDDYL",
+			"Kly"
 		]
 	},
-	"forcepreview": "儲存頁面（需先預覽）",
+	"forcepreview": "$1（優先使用預覽）",
 	"forcepreview-desc": "強制無權限使用者預覽",
 	"right-forcepreviewexempt": "可儲存而不使用顯示預覽"
 }
