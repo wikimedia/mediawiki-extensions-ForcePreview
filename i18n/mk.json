@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Brest"
+			"Brest",
+			"Bjankuloski06"
 		]
 	},
-	"forcepreview": "Зачувај страница (прво прегледај)",
+	"forcepreview": "$1 (прво прегледај)",
 	"forcepreview-desc": "Форсирај преглед за непривилегирани корисници",
 	"right-forcepreviewexempt": "Може да зачува измени без прегледување"
 }
