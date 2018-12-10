@@ -1,8 +1,8 @@
 $( function () {
 	"use strict";
 
-	var preview = OO.ui.infuse( "wpPreviewWidget" ),
-		save = OO.ui.infuse( "wpSaveWidget" ),
+	var preview = OO.ui.infuse( $( "#wpPreviewWidget" ) ),
+		save = OO.ui.infuse( $( "#wpSaveWidget" ) ),
 		newPage = mw.config.get( "wgArticleId" ) === 0,
 		message;
 
