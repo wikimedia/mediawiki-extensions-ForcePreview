@@ -4,7 +4,7 @@
 			"McDutchie"
 		]
 	},
-	"forcepreview": "Publicar pagina (face primo un previsualisation)",
+	"forcepreview": "$1 (face primo un previsualisation)",
 	"forcepreview-desc": "Fortia le uso del previsualisation pro usatores non privilegiate",
 	"right-forcepreviewexempt": "Pote publicar sin uso de \"Monstrar previsualisation\""
 }
