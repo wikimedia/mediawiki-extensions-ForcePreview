@@ -6,7 +6,7 @@
  * @ingroup Extensions
  * @author Ryan Schmidt
  * @license MIT
- * @link http://www.mediawiki.org/wiki/Extension:ForcePreview Documentation
+ * @link https://www.mediawiki.org/wiki/Extension:ForcePreview Documentation
  */
 
 class ForcePreview {
