@@ -7,5 +7,6 @@
 	},
 	"forcepreview": "$1 (прво прегледај)",
 	"forcepreview-desc": "Форсирај преглед за непривилегирани корисници",
+	"action-forcepreviewexempt": "зачувувате измени без прегледување",
 	"right-forcepreviewexempt": "Може да зачува измени без прегледување"
 }

@@ -8,5 +8,6 @@
 	},
 	"forcepreview": "$1 (استخدم المعاينة أولا)",
 	"forcepreview-desc": "إجبار المستخدمين غير الموثوقين على العرض المسبق",
+	"action-forcepreviewexempt": "يستطيع الحفظ بدون استخدام العرض المسبق",
 	"right-forcepreviewexempt": "يمكنه الحفظ بدون استخدام العرض المسبق"
 }
