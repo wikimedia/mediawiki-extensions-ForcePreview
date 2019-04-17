@@ -9,5 +9,6 @@
 	},
 	"forcepreview": "$1 (use a antevisão primeiro)",
 	"forcepreview-desc": "Força antevisão para utilizadores sem privilégios",
-	"right-forcepreviewexempt": "Gravar páginas sem usar \"Antever resultado\""
+	"action-forcepreviewexempt": "pode gravar páginas sem usar \"Antever resultado\"",
+	"right-forcepreviewexempt": "Pode gravar páginas sem usar \"Antever resultado\""
 }
