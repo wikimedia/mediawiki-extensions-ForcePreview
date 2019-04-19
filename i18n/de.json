@@ -8,5 +8,6 @@
 	},
 	"forcepreview": "$1 (zuerst Vorschau anzeigen)",
 	"forcepreview-desc": "Vorschau für unprivilegierte Benutzer erzwingen",
+	"action-forcepreviewexempt": "ohne Erzwingung der Vorschau zu speichern",
 	"right-forcepreviewexempt": "Speichern ohne Erzwingung der Vorschau"
 }
