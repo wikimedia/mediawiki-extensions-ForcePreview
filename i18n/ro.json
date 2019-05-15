@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"KlaudiuMihaila"
+			"KlaudiuMihaila",
+			"Andrei Stroe"
 		]
 	},
-	"forcepreview": "Salvează pagina (folosește previzualizare întâi)",
+	"forcepreview": "$1 (folosește previzualizare întâi)",
 	"forcepreview-desc": "Forțează previzualizare pentru utilizatori neprivilegiați"
 }

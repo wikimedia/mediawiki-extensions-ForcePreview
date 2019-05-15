@@ -2,10 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Smeira",
-			"Yekrats"
+			"Yekrats",
+			"Mirin"
 		]
 	},
-	"forcepreview": "Konservu paĝon (post rigardanta ĝin)",
+	"forcepreview": "$1 (antaŭrigardu antaŭe)",
 	"forcepreview-desc": "Devigi antaŭrigardon por senrajtajn uzantojn",
+	"action-forcepreviewexempt": "rajtas konservi sen antaŭrigardado",
 	"right-forcepreviewexempt": "Povas konservi neuzinte Antaŭvidon"
 }
