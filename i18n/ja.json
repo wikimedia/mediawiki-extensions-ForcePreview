@@ -8,5 +8,5 @@
 	},
 	"forcepreview": "$1 (初めにプレビューを使用してください)",
 	"forcepreview-desc": "権限を持たない利用者にプレビューを強制させる",
-	"right-forcepreviewexempt": "プレビューをせずに保存できる"
+	"right-forcepreviewexempt": "プレビュー表示をせずに保存"
 }
