@@ -10,7 +10,7 @@
  */
 
 class ForcePreview {
-	public static function onEditPageBeforeEditButtons( &$editpage, &$buttons, &$tabindex ) {
+	public static function onEditPageBeforeEditButtons( $editpage, &$buttons, &$tabindex ) {
 		$user = $editpage->getContext()->getUser();
 		$isInitialLoad = !$editpage->preview && empty( $editpage->save );
 
