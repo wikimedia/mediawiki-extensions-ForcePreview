@@ -1,10 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Helix84"
+			"Helix84",
+			"Vlad5250"
 		]
 	},
-	"forcepreview": "Uložiť stránku (najprv zobraziť náhľad)",
+	"forcepreview": "$1 (najprv zobraziť náhľad)",
 	"forcepreview-desc": "Vynucuje náhľad u neprivilegovaných používateľov",
+	"action-forcepreviewexempt": "je možné uložiť bez použitia Zobraziť náhľad",
 	"right-forcepreviewexempt": "Je možné uložiť bez použitia Zobraziť náhľad"
 }
