@@ -28,7 +28,7 @@ class ForcePreview {
 		$user = $out->getUser();
 		$request = $out->getRequest();
 		$title = $out->getTitle();
-		
+
 		if (
 			!$title->userCan( 'edit' )
 			|| $user->isAllowed( 'forcepreviewexempt' )
