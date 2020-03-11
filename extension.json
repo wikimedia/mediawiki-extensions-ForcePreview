@@ -17,15 +17,9 @@
 		]
 	},
 	"Hooks": {
-		"EditPageBeforeEditButtons": [
-			"ForcePreview::onEditPageBeforeEditButtons"
-		],
-		"BeforePageDisplay": [
-			"ForcePreview::onBeforePageDisplay"
-		],
-		"ResourceLoaderGetConfigVars": [
-			"ForcePreview::onResourceLoaderGetConfigVars"
-		]
+		"EditPageBeforeEditButtons": "ForcePreview::onEditPageBeforeEditButtons",
+		"BeforePageDisplay": "ForcePreview::onBeforePageDisplay",
+		"ResourceLoaderGetConfigVars": "ForcePreview::onResourceLoaderGetConfigVars"
 	},
 	"AutoloadClasses": {
 		"ForcePreview": "ForcePreview.php"
