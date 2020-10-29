@@ -17,6 +17,11 @@ $( function () {
 	preview.on( 'click', function enableSave() {
 		save.setFlags( { primary: true, progressive: true } )
 			.setDisabled( false )
+			// Messages that can be used here (see above):
+			// * publishpage
+			// * publishchanges
+			// * savearticle
+			// * savechanges
 			.setLabel( OO.ui.msg( message ) );
 
 		preview.setFlags( { primary: false, progressive: false } )
