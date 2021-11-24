@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Armin1392",
-			"Mjbmr"
+			"Mjbmr",
+			"Jeeputer"
 		]
 	},
-	"forcepreview": "ذخیرهٔ صفحه (ابتدا از پیش‌نمایش استفاده کنید)",
+	"forcepreview": "$1 (ابتدا از پیش‌نمایش استفاده کنید)",
 	"forcepreview-desc": "اجبار پیش‌نمایش برای کاربران بدون امتیاز",
 	"right-forcepreviewexempt": "ممکن است بدون استفاده از نمایش پیش‌نمایش، ذخیره شود"
 }
