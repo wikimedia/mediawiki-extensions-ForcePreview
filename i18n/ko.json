@@ -7,5 +7,6 @@
 	},
 	"forcepreview": "$1 (미리보기를 먼저 사용하세요)",
 	"forcepreview-desc": "권한이 없는 사용자에게 미리 보기를 강제",
+	"action-forcepreviewexempt": "미리 보기를 사용하지 않고 저장할 수 있는",
 	"right-forcepreviewexempt": "미리 보기 없이 편집 가능"
 }
