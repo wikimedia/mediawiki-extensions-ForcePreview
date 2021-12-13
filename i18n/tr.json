@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
-			"Vito Genovese"
+			"Vito Genovese",
+			"MuratTheTurkish"
 		]
 	},
 	"forcepreview": "$1 (önce önizlemeyi kullan)",
-	"forcepreview-desc": "Yetkisiz kullanıcılar için ön izlemeyi zorunlu kılar",
+	"forcepreview-desc": "Ayrıcalıklı olmayan kullanıcılar için önizlemeyi zorlar",
 	"action-forcepreviewexempt": "Önizlemeyi göster kullanmadan kaydedebilirsiniz",
-	"right-forcepreviewexempt": "Ön izleme yapmadan sayfayı kaydedebilir"
+	"right-forcepreviewexempt": "Önizlemeyi göster kullanmadan kaydedebilirsiniz"
 }
