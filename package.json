@@ -1,4 +1,5 @@
 {
+	"name": "ForcePreview",
 	"private": true,
 	"scripts": {
 		"test": "grunt test"
