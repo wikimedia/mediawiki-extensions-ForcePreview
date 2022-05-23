@@ -6,6 +6,6 @@
 	},
 	"forcepreview": "$1 (face primo un previsualisation)",
 	"forcepreview-desc": "Fortia le uso del previsualisation pro usatores non privilegiate",
-	"action-forcepreviewexempt": "poter publicar sin uso de \"Monstrar previsualisation\"",
-	"right-forcepreviewexempt": "Pote publicar sin uso de \"Monstrar previsualisation\""
+	"action-forcepreviewexempt": "publicar sin uso de \"Monstrar previsualisation\"",
+	"right-forcepreviewexempt": "Publicar sin uso de \"Monstrar previsualisation\""
 }

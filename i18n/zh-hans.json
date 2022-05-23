@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"GuoPC",
 			"Gzdavidwong",
 			"Hydra",
 			"Liuxinyu970226"
@@ -8,5 +9,6 @@
 	},
 	"forcepreview": "$1（优先使用预览）",
 	"forcepreview-desc": "强制为无特权用户预览",
-	"right-forcepreviewexempt": "可保存而不使用显示预览"
+	"action-forcepreviewexempt": "保存而不使用显示预览",
+	"right-forcepreviewexempt": "保存而不使用显示预览"
 }

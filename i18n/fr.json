@@ -9,6 +9,6 @@
 	},
 	"forcepreview": "$1 (prévisualiser au préalable)",
 	"forcepreview-desc": "Force la prévisualisation pour les utilisateurs ne disposant d'aucun privilège",
-	"action-forcepreviewexempt": "peut enregistrer sans utiliser Afficher l’aperçu",
-	"right-forcepreviewexempt": "Peut publier sans utiliser la prévisualisation"
+	"action-forcepreviewexempt": "publier sans utiliser la prévisualisation",
+	"right-forcepreviewexempt": "Publier sans utiliser la prévisualisation"
 }
