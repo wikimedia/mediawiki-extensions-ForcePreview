@@ -7,5 +7,5 @@
 	},
 	"forcepreview": "$1 (usa prima l'anteprima)",
 	"forcepreview-desc": "Forza l'uso dell'anteprima per gli utenti che non hanno privilegi sufficienti",
-	"right-forcepreviewexempt": "Può salvare senza usare Visualizza anteprima"
+	"right-forcepreviewexempt": "Salva senza usare Visualizza anteprima"
 }
