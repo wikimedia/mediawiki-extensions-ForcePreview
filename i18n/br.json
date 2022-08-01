@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Fulup"
+			"Fulup",
+			"Huñvreüs"
 		]
 	},
-	"forcepreview": "Enrollañ ar bajenn (rakwelet a-raok)",
+	"forcepreview": "$1 (rakwelet a-raok)",
 	"forcepreview-desc": "Gwallañ a ra ar rakweled evit an implijerien diaotre",
-	"right-forcepreviewexempt": "A c'hall enrollañ hep ober gant ar rakweled"
+	"right-forcepreviewexempt": "Enrollañ hep ober gant ar rakweled"
 }
