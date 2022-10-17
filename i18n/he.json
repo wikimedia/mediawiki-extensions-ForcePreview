@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Guycn2",
 			"Rotemliss",
 			"Steeve815"
@@ -8,5 +9,6 @@
 	},
 	"forcepreview": "$1 (השתמשו קודם בתצוגה מקדימה)",
 	"forcepreview-desc": "הכרחת משתמשים לא מורשים להשתמש בתצוגה מקדימה",
+	"action-forcepreviewexempt": "לשמור ללא שימוש בתצוגה מקדימה",
 	"right-forcepreviewexempt": "שמירת דפים ללא שימוש בתצוגה מקדימה"
 }
