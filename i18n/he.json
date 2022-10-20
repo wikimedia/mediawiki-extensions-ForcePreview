@@ -3,10 +3,12 @@
 		"authors": [
 			"Guycn2",
 			"Rotemliss",
-			"Steeve815"
+			"Steeve815",
+			"Amire80"
 		]
 	},
 	"forcepreview": "$1 (השתמשו קודם בתצוגה מקדימה)",
 	"forcepreview-desc": "הכרחת משתמשים לא מורשים להשתמש בתצוגה מקדימה",
+	"action-forcepreviewexempt": "לשמור ללא שימוש בתצוגה מקדימה",
 	"right-forcepreviewexempt": "שמירת דפים ללא שימוש בתצוגה מקדימה"
 }
