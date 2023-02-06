@@ -16,7 +16,11 @@ class ForcePreview {
 		$user = $editpage->getContext()->getUser();
 		$isInitialLoad = !$editpage->preview && empty( $editpage->save );
 
-		if ( !$user->isAllowed( 'forcepreviewexempt' ) && $isInitialLoad ) {
+		if (
+			!$user->isAllowed( 'forcepreviewexempt' ) &&
+			$isInitialLoad &&
+			isset( $buttons['preview'] )
+		) {
 			$buttons['save']->setDisabled( true );
 			$buttons['save']->setLabel( wfMessage( 'forcepreview', $buttons['save']->getLabel() )->text() );
 			$buttons['save']->setFlags( [ 'primary' => false ] );
