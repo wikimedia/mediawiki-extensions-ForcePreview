@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nokeoo"
+		]
+	},
+	"forcepreview": "$1 (pirmiausia naudokite peržiūrą)",
+	"forcepreview-desc": "Priverstinė peržiūra neprivilegijuotiems naudotojams"
+}
