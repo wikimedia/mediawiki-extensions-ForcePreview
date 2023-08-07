@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"forcepreview": "$1 (najprije pretpregledaj)",
+	"forcepreview-desc": "Forsiraj pretpregled za nepotvrđene korisnike"
+}
