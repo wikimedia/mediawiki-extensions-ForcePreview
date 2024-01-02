@@ -8,5 +8,6 @@
 	},
 	"forcepreview": "$1 (usar abans la previsualització)",
 	"forcepreview-desc": "Força la previsualització als usuaris sense permisos",
-	"right-forcepreviewexempt": "Poder desar sense haver de previsualitzar"
+	"action-forcepreviewexempt": "desar sense haver de previsualitzar",
+	"right-forcepreviewexempt": "Desar sense haver de previsualitzar"
 }
