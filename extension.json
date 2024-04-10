@@ -17,9 +17,15 @@
 		]
 	},
 	"Hooks": {
-		"EditPageBeforeEditButtons": "ForcePreview::onEditPageBeforeEditButtons",
-		"BeforePageDisplay": "ForcePreview::onBeforePageDisplay",
-		"ResourceLoaderGetConfigVars": "ForcePreview::onResourceLoaderGetConfigVars"
+		"EditPageBeforeEditButtons": "main",
+		"BeforePageDisplay": "main",
+		"ResourceLoaderGetConfigVars": "main"
+	},
+	"HookHandlers": {
+		"main": {
+			"class": "ForcePreview",
+			"services": []
+		}
 	},
 	"AutoloadClasses": {
 		"ForcePreview": "ForcePreview.php"

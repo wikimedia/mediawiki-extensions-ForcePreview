@@ -9,10 +9,17 @@
  * @link https://www.mediawiki.org/wiki/Extension:ForcePreview Documentation
  */
 
+use MediaWiki\Hook\BeforePageDisplayHook;
+use MediaWiki\Hook\EditPageBeforeEditButtonsHook;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\ResourceLoader\Hook\ResourceLoaderGetConfigVarsHook;
 
-class ForcePreview {
-	public static function onEditPageBeforeEditButtons( $editpage, &$buttons, &$tabindex ) {
+class ForcePreview implements
+	BeforePageDisplayHook,
+	EditPageBeforeEditButtonsHook,
+	ResourceLoaderGetConfigVarsHook
+{
+	public function onEditPageBeforeEditButtons( $editpage, &$buttons, &$tabindex ) {
 		$user = $editpage->getContext()->getUser();
 		$isInitialLoad = !$editpage->preview && empty( $editpage->save );
 
@@ -26,11 +33,9 @@ class ForcePreview {
 			$buttons['save']->setFlags( [ 'primary' => false ] );
 			$buttons['preview']->setFlags( [ 'primary' => true, 'progressive' => true ] );
 		}
-
-		return true;
 	}
 
-	public static function onBeforePageDisplay( &$out, &$skin ) {
+	public function onBeforePageDisplay( $out, $skin ): void {
 		$user = $out->getUser();
 		$request = $out->getRequest();
 
@@ -41,7 +46,7 @@ class ForcePreview {
 			|| !$services->getUserOptionsLookup()->getBoolOption( $user, 'uselivepreview' )
 			|| !in_array( $request->getVal( 'action' ), [ 'edit', 'submit' ] )
 		) {
-			return true;
+			return;
 		}
 
 		$title = $out->getTitle();
@@ -49,16 +54,13 @@ class ForcePreview {
 			->getPermissionManager()
 			->userCan( 'edit', $user, $title )
 		) {
-			return true;
+			return;
 		}
 
 		$out->addModules( 'ext.ForcePreview.livePreview' );
-		return true;
 	}
 
-	public static function onResourceLoaderGetConfigVars( &$vars ) {
-		$config = MediaWikiServices::getInstance()->getMainConfig();
+	public function onResourceLoaderGetConfigVars( array &$vars, $skin, Config $config ): void {
 		$vars['wgEditSubmitButtonLabelPublish'] = $config->get( 'EditSubmitButtonLabelPublish' );
-		return true;
 	}
 }
