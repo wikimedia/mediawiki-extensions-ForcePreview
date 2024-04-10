@@ -54,7 +54,7 @@ class ForcePreview implements
 		if (
 			$user->isAllowed( 'forcepreviewexempt' )
 			|| !$this->userOptionsLookup->getBoolOption( $user, 'uselivepreview' )
-			|| !in_array( $request->getVal( 'action' ), [ 'edit', 'submit' ] )
+			|| !in_array( $request->getRawVal( 'action' ), [ 'edit', 'submit' ] )
 		) {
 			return;
 		}
