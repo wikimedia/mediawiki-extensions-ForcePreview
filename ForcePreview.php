@@ -11,14 +11,26 @@
 
 use MediaWiki\Hook\BeforePageDisplayHook;
 use MediaWiki\Hook\EditPageBeforeEditButtonsHook;
-use MediaWiki\MediaWikiServices;
+use MediaWiki\Permissions\PermissionManager;
 use MediaWiki\ResourceLoader\Hook\ResourceLoaderGetConfigVarsHook;
+use MediaWiki\User\UserOptionsLookup;
 
 class ForcePreview implements
 	BeforePageDisplayHook,
 	EditPageBeforeEditButtonsHook,
 	ResourceLoaderGetConfigVarsHook
 {
+	private PermissionManager $permissionManager;
+	private UserOptionsLookup $userOptionsLookup;
+
+	public function __construct(
+		PermissionManager $permissionManager,
+		UserOptionsLookup $userOptionsLookup
+	) {
+		$this->permissionManager = $permissionManager;
+		$this->userOptionsLookup = $userOptionsLookup;
+	}
+
 	public function onEditPageBeforeEditButtons( $editpage, &$buttons, &$tabindex ) {
 		$user = $editpage->getContext()->getUser();
 		$isInitialLoad = !$editpage->preview && empty( $editpage->save );
@@ -39,21 +51,16 @@ class ForcePreview implements
 		$user = $out->getUser();
 		$request = $out->getRequest();
 
-		$services = MediaWikiServices::getInstance();
-
 		if (
 			$user->isAllowed( 'forcepreviewexempt' )
-			|| !$services->getUserOptionsLookup()->getBoolOption( $user, 'uselivepreview' )
+			|| !$this->userOptionsLookup->getBoolOption( $user, 'uselivepreview' )
 			|| !in_array( $request->getVal( 'action' ), [ 'edit', 'submit' ] )
 		) {
 			return;
 		}
 
 		$title = $out->getTitle();
-		if ( !$services
-			->getPermissionManager()
-			->userCan( 'edit', $user, $title )
-		) {
+		if ( !$this->permissionManager->userCan( 'edit', $user, $title ) ) {
 			return;
 		}
 

@@ -24,7 +24,10 @@
 	"HookHandlers": {
 		"main": {
 			"class": "ForcePreview",
-			"services": []
+			"services": [
+				"PermissionManager",
+				"UserOptionsLookup"
+			]
 		}
 	},
 	"AutoloadClasses": {
