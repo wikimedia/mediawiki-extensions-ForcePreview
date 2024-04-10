@@ -36,37 +36,20 @@ class ForcePreview {
 
 		$services = MediaWikiServices::getInstance();
 
-		if ( method_exists( $services, 'getUserOptionsLookup' ) ) {
-			// MW 1.35+
-			if (
-				$user->isAllowed( 'forcepreviewexempt' )
-				|| !$services->getUserOptionsLookup()->getBoolOption( $user, 'uselivepreview' )
-				|| !in_array( $request->getVal( 'action' ), [ 'edit', 'submit' ] )
-			) {
-				return true;
-			}
-		} else {
-			if (
-				$user->isAllowed( 'forcepreviewexempt' )
-				|| !$user->getBoolOption( 'uselivepreview' )
-				|| !in_array( $request->getVal( 'action' ), [ 'edit', 'submit' ] )
-			) {
-				return true;
-			}
+		if (
+			$user->isAllowed( 'forcepreviewexempt' )
+			|| !$services->getUserOptionsLookup()->getBoolOption( $user, 'uselivepreview' )
+			|| !in_array( $request->getVal( 'action' ), [ 'edit', 'submit' ] )
+		) {
+			return true;
 		}
 
 		$title = $out->getTitle();
-		if ( class_exists( 'MediaWiki\Permissions\PermissionManager' ) ) {
-			if ( !$services
-				->getPermissionManager()
-				->userCan( 'edit', $user, $title )
-			) {
-				return true;
-			}
-		} else {
-			if ( !$title->userCan( 'edit' ) ) {
-				return true;
-			}
+		if ( !$services
+			->getPermissionManager()
+			->userCan( 'edit', $user, $title )
+		) {
+			return true;
 		}
 
 		$out->addModules( 'ext.ForcePreview.livePreview' );
