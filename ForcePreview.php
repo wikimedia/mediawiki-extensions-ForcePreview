@@ -32,16 +32,16 @@ class ForcePreview implements
 	}
 
 	public function onEditPageBeforeEditButtons( $editpage, &$buttons, &$tabindex ) {
-		$user = $editpage->getContext()->getUser();
+		$context = $editpage->getContext();
 		$isInitialLoad = !$editpage->preview && empty( $editpage->save );
 
 		if (
-			!$user->isAllowed( 'forcepreviewexempt' ) &&
+			!$context->getUser()->isAllowed( 'forcepreviewexempt' ) &&
 			$isInitialLoad &&
 			isset( $buttons['preview'] )
 		) {
 			$buttons['save']->setDisabled( true );
-			$buttons['save']->setLabel( wfMessage( 'forcepreview', $buttons['save']->getLabel() )->text() );
+			$buttons['save']->setLabel( $context->msg( 'forcepreview', $buttons['save']->getLabel() )->text() );
 			$buttons['save']->setFlags( [ 'primary' => false ] );
 			$buttons['preview']->setFlags( [ 'primary' => true, 'progressive' => true ] );
 		}
