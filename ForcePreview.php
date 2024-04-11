@@ -31,6 +31,12 @@ class ForcePreview implements
 		$this->userOptionsLookup = $userOptionsLookup;
 	}
 
+	/**
+	 * @param EditPage $editpage Current EditPage object
+	 * @param array &$buttons Array of edit buttons, "Save", "Preview", "Live", and "Diff"
+	 * @param int &$tabindex HTML tabindex of the last edit check/button
+	 * @return bool|void True or no return value to continue or false to abort
+	 */
 	public function onEditPageBeforeEditButtons( $editpage, &$buttons, &$tabindex ) {
 		$context = $editpage->getContext();
 		$isInitialLoad = !$editpage->preview && empty( $editpage->save );
@@ -47,6 +53,11 @@ class ForcePreview implements
 		}
 	}
 
+	/**
+	 * @param OutputPage $out
+	 * @param Skin $skin
+	 * @return void This hook must not abort, it must return no value
+	 */
 	public function onBeforePageDisplay( $out, $skin ): void {
 		$user = $out->getUser();
 		$request = $out->getRequest();
@@ -67,6 +78,12 @@ class ForcePreview implements
 		$out->addModules( 'ext.ForcePreview.livePreview' );
 	}
 
+	/**
+	 * @param array &$vars `[ variable name => value ]`
+	 * @param string $skin
+	 * @param Config $config
+	 * @return void This hook must not abort, it must return no value
+	 */
 	public function onResourceLoaderGetConfigVars( array &$vars, $skin, Config $config ): void {
 		$vars['wgEditSubmitButtonLabelPublish'] = $config->get( 'EditSubmitButtonLabelPublish' );
 	}
