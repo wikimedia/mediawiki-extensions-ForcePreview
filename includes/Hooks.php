@@ -9,13 +9,19 @@
  * @link https://www.mediawiki.org/wiki/Extension:ForcePreview Documentation
  */
 
+namespace MediaWiki\Extension\ForcePreview;
+
+use Config;
+use EditPage;
 use MediaWiki\Hook\BeforePageDisplayHook;
 use MediaWiki\Hook\EditPageBeforeEditButtonsHook;
 use MediaWiki\Permissions\PermissionManager;
 use MediaWiki\ResourceLoader\Hook\ResourceLoaderGetConfigVarsHook;
 use MediaWiki\User\UserOptionsLookup;
+use OutputPage;
+use Skin;
 
-class ForcePreview implements
+class Hooks implements
 	BeforePageDisplayHook,
 	EditPageBeforeEditButtonsHook,
 	ResourceLoaderGetConfigVarsHook
