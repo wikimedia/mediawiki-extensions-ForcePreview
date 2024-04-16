@@ -11,14 +11,14 @@
 
 namespace MediaWiki\Extension\ForcePreview;
 
-use Config;
-use EditPage;
-use MediaWiki\Hook\BeforePageDisplayHook;
+use MediaWiki\Config\Config;
+use MediaWiki\EditPage\EditPage;
 use MediaWiki\Hook\EditPageBeforeEditButtonsHook;
+use MediaWiki\Output\Hook\BeforePageDisplayHook;
+use MediaWiki\Output\OutputPage;
 use MediaWiki\Permissions\PermissionManager;
 use MediaWiki\ResourceLoader\Hook\ResourceLoaderGetConfigVarsHook;
-use MediaWiki\User\UserOptionsLookup;
-use OutputPage;
+use MediaWiki\User\Options\UserOptionsLookup;
 use Skin;
 
 class Hooks implements
