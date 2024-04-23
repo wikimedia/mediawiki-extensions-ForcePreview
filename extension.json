@@ -23,15 +23,15 @@
 	},
 	"HookHandlers": {
 		"main": {
-			"class": "ForcePreview",
+			"class": "MediaWiki\\Extension\\ForcePreview\\Hooks",
 			"services": [
 				"PermissionManager",
 				"UserOptionsLookup"
 			]
 		}
 	},
-	"AutoloadClasses": {
-		"ForcePreview": "ForcePreview.php"
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\ForcePreview\\": "includes/"
 	},
 	"AvailableRights": [
 		"forcepreviewexempt"
