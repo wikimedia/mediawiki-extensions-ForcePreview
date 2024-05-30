@@ -4,11 +4,12 @@
 			"GuoPC",
 			"Gzdavidwong",
 			"Hydra",
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"LittlePaw365"
 		]
 	},
-	"forcepreview": "$1（优先使用预览）",
-	"forcepreview-desc": "强制为无特权用户预览",
-	"action-forcepreviewexempt": "保存而不使用显示预览",
-	"right-forcepreviewexempt": "保存而不使用显示预览"
+	"forcepreview": "$1（请先预览）",
+	"forcepreview-desc": "强制没有权限的用户预览",
+	"action-forcepreviewexempt": "不使用“显示预览”而保存",
+	"right-forcepreviewexempt": "不使用“显示预览”而保存"
 }
