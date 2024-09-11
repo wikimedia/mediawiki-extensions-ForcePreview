@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Jonny84",
-			"Schläsinger"
+			"Schläsinger",
+			"Äberlausitzer"
 		]
 	},
-	"forcepreview": "Seite speichern (zuerst Vurschau oazeiga)",
-	"forcepreview-desc": "Vorschau für unprivilegierte Benutzer erzwingen",
-	"right-forcepreviewexempt": "Speichern ohne Erzwingung der Vorschau"
+	"forcepreview": "$1 (zuerscht Vurschau oazeiga)",
+	"forcepreview-desc": "Vurschau fer unprivilegierte Benutzer erzwinga",
+	"right-forcepreviewexempt": "Speichern ohne Erzwingung der Vurschau"
 }
