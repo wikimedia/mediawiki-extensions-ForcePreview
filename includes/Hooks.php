@@ -45,7 +45,7 @@ class Hooks implements
 	 */
 	public function onEditPageBeforeEditButtons( $editpage, &$buttons, &$tabindex ) {
 		$context = $editpage->getContext();
-		$isInitialLoad = !$editpage->preview && empty( $editpage->save );
+		$isInitialLoad = !$editpage->preview && !$editpage->save;
 
 		if (
 			!$context->getUser()->isAllowed( 'forcepreviewexempt' ) &&
