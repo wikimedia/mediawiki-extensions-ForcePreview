@@ -6,7 +6,8 @@
 			"Toliño"
 		]
 	},
-	"forcepreview": "$1 (usar vista previa)",
+	"forcepreview": "$1 (usa antes a vista previa)",
 	"forcepreview-desc": "Forzar a vista previa aos usuarios sen privilexios",
-	"right-forcepreviewexempt": "Poder gardar sen usar a vista previa"
+	"action-forcepreviewexempt": "gardar sen usar \"Amosar a vista previa\"",
+	"right-forcepreviewexempt": "Gardar sen usar \"Amosar a vista previa\""
 }
