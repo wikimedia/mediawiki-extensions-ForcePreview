@@ -1,11 +1,11 @@
-$( function () {
+$( () => {
 	'use strict';
 
-	var preview = OO.ui.infuse( $( '#wpPreviewWidget' ) ),
+	const preview = OO.ui.infuse( $( '#wpPreviewWidget' ) ),
 		save = OO.ui.infuse( $( '#wpSaveWidget' ) ),
-		newPage = mw.config.get( 'wgArticleId' ) === 0,
-		message;
+		newPage = mw.config.get( 'wgArticleId' ) === 0;
 
+	let message;
 	// This logic was lifted from EditPage::getSaveButtonLabel,
 	// which is sadly a private function
 	if ( mw.config.get( 'wgEditSubmitButtonLabelPublish' ) ) {
