@@ -2,9 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Kaustubh",
-			"Rishi.Singh"
+			"Rishi.Singh",
+			"Saurmandal"
 		]
 	},
 	"forcepreview": "$1(पहलें झलक देखें)",
-	"forcepreview-desc": "कम अधिकार होने वाले सदस्योंको जानबूझकर झलक दिखायें"
+	"forcepreview-desc": "कम अधिकार होने वाले सदस्योंको जानबूझकर झलक दिखायें",
+	"action-forcepreviewexempt": "पूर्वावलोकन देखे बिना सहेजना",
+	"right-forcepreviewexempt": "पूर्वावलोकन देखे बिना सहेजना"
 }
