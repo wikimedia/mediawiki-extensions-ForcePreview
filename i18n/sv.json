@@ -3,10 +3,12 @@
 		"authors": [
 			"Jon Harald Søby",
 			"Lejonel",
-			"WikiPhoenix"
+			"WikiPhoenix",
+			"Stefan2255"
 		]
 	},
 	"forcepreview": "$1 (förhandsgranska först)",
 	"forcepreview-desc": "Tvingar användare att förhandsgranska om de saknar rätt behörighet",
-	"right-forcepreviewexempt": "Kan spara utan att visa förhandsgranskning"
+	"action-forcepreviewexempt": "spara utan att använda Visa förhandsgranskning",
+	"right-forcepreviewexempt": "Spara utan att använda Visa förhandsgranskning"
 }
