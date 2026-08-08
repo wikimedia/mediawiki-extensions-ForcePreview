@@ -18,8 +18,8 @@ use MediaWiki\Output\Hook\BeforePageDisplayHook;
 use MediaWiki\Output\OutputPage;
 use MediaWiki\Permissions\PermissionManager;
 use MediaWiki\ResourceLoader\Hook\ResourceLoaderGetConfigVarsHook;
+use MediaWiki\Skin\Skin;
 use MediaWiki\User\Options\UserOptionsLookup;
-use Skin;
 
 class Hooks implements
 	BeforePageDisplayHook,
